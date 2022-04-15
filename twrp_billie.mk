@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := instantnoodle
+PRODUCT_RELEASE_NAME := billie
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := IN2013
+PRODUCT_MODEL := billie
 PRODUCT_MANUFACTURER := oneplus
 
 # Inherit from hardware-specific part of the product configuration
