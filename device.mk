@@ -1,10 +1,10 @@
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-LOCAL_PATH := device/oneplus/instantnoodle
+LOCAL_PATH := device/oneplus/billie
 
 # define hardware platform
-PRODUCT_PLATFORM := kona
+PRODUCT_PLATFORM := lito
 
 # A/B support
 AB_OTA_UPDATER := true
