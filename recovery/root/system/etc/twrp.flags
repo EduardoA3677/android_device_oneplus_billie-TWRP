@@ -27,4 +27,5 @@
 #/keymaster       	emmc       	/dev/block/bootdevice/by-name/keymaster             flags=slotselect
 
 # Removable storage
+/sdcard1        vfat /dev/block/mmcblk1p1               /dev/block/mmcblk1      flags=fsflags=utf8;display="MicroSD";storage;wipeingui;removable
 /usbstorage      	vfat    		/dev/block/sdg1        /dev/block/sdg     					flags=fsflags=utf8;display="USB OTG";storage;wipeingui;removable
