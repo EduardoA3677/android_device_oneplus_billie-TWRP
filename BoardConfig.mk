@@ -52,7 +52,6 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
-    androidboot.selinux=permissive \
     lpm_levels.sleep_disabled=1 \
     msm_rtb.filter=0x237 \
     firmware_class.path=/vendor/firmware_mnt/image \
